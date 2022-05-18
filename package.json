@@ -1,0 +1,35 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --config ./build/webpack.dev",
+    "build": "webpack --config ./build/webpack.prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "sass-resources-loader": "^2.2.5",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "vue": "^2.6.9",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.9",
+    "webpack-merge": "^5.8.0"
+  }
+}
